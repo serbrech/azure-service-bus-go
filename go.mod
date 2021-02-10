@@ -3,7 +3,7 @@ module github.com/Azure/azure-service-bus-go
 go 1.12
 
 require (
-	github.com/Azure/azure-amqp-common-go/v3 v3.0.1
+	github.com/Azure/azure-amqp-common-go/v3 v3.1.0
 	github.com/Azure/azure-sdk-for-go v37.1.0+incompatible
 	github.com/Azure/go-amqp v0.13.1
 	github.com/Azure/go-autorest/autorest v0.11.7
@@ -18,3 +18,5 @@ require (
 	golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd // indirect
 	nhooyr.io/websocket v1.8.6
 )
+
+replace github.com/Azure/go-amqp => ../go-amqp
